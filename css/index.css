@@ -61,11 +61,11 @@
 	color: #fb9232 !important;
 }
 
-.currentPageHighlight {
+.currentPageHighlightHome {
 	color: #fb9232 !important;
 }
 
-.currentPageHighlight::after {
+.currentPageHighlightHome::after {
 	content: '';
 	width: 70%;
 	height: 3px;
