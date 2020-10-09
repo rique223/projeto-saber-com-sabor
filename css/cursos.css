@@ -18,6 +18,20 @@ body {
   margin-left: 25px;
 }
 
-.banner-fundo > img {
+.banner-fundo {
+  background-image: url(../assets/Cursos/Banner-principal.png);
+  height: 494px;
   margin-top: -103px;
+  background-size: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.programas {
+  background-image: url(../assets/Cursos/programas.png);
+  background-position: 50% 67%;
+  background-size: 44%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }
