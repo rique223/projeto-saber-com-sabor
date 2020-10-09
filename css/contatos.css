@@ -1,0 +1,46 @@
+hmtl,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.currentPageHighlightCursos {
+  color: #fb9232 !important;
+}
+
+.currentPageHighlightCursos::after {
+  content: "";
+  width: 70%;
+  height: 3px;
+  background: #fb9232;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.banner-fundo {
+  background-image: url(../assets/Contatos/fundo.png);
+  height: 494px;
+  margin-top: -103px;
+  background-size: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contatos {
+  background-image: url(../assets/Contatos/contato.png);
+  background-position: 50% 67%;
+  background-size: 44%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.banner-sec {
+  background-image: url(../assets/Contatos/image\ 7.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+}
