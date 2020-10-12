@@ -42,3 +42,10 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
+.logo {
+  background-image: url(../assets/Contatos/logo2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 316.67px;
+}
