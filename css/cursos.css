@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Caslon+Text:ital@1&family=Oleo+Script+Swash+Caps&family=Playfair+Display:ital,wght@1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Caslon+Text:ital@1&family=Merriweather:wght@900&family=Oleo+Script+Swash+Caps&family=Playfair+Display:ital,wght@1,700&display=swap");
 
 hmtl,
 body {
@@ -58,4 +59,11 @@ body {
   background: #fb9232;
   margin-top: 1.5%;
   margin-left: 46%;
+}
+
+.cat-massas > h3 {
+  margin-top: 5%;
+  margin-left: 12%;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
 }
