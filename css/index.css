@@ -352,3 +352,48 @@
 	color: #ffffff;
 	text-align: justify;
 }
+
+/********************************************Call-to-action Hotmart*******************************************************************/
+
+.cta {
+	width: 100%;
+	height: 524px;
+	background: url(../assets/Home/hot.jpg) no-repeat;
+	background-position: 35% 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.cta button {
+	background-color: #c7c7c7;
+	margin-top: 30px;
+	padding: 26px 81px;
+	width: 320px;
+	float: right;
+	position: absolute;
+	border: none;
+	border-radius: 80px 0 0 80px;
+	box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ebebeb;
+}
+
+.cta button p {
+	font-family: 'Inter', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.cta button img {
+	display: inline-block;
+	position: relative;
+}
+
+.cta button span {
+	position: relative;
+	font-weight: bold;
+	font-size: 32px;
+	display: inline-block;
+	vertical-align: bottom;
+	color: #043d4c;
+	text-transform: lowercase;
+	margin-bottom: 4px;
+}
