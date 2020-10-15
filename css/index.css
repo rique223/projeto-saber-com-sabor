@@ -478,3 +478,22 @@
 	width: 100%;
 	text-transform: uppercase;
 }
+
+/********************************************Professores*******************************************************************/
+
+.slider-professores {
+	background: url(../assets/Home/bck-beneficios.jpg) no-repeat;
+	background-size: 100%;
+	height: 910px;
+	width: 100%;
+}
+
+.professores-item {
+	background-color: #fff;
+	height: 806px !important;
+	width: 1096px !important;
+	position: relative;
+	left: 21%;
+	margin-top: 50px;
+	border-radius: 95px;
+}
