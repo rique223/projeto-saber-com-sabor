@@ -374,6 +374,7 @@
 	border: none;
 	border-radius: 80px 0 0 80px;
 	box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ebebeb;
+	cursor: pointer;
 }
 
 .cta button p {
@@ -396,4 +397,84 @@
 	color: #043d4c;
 	text-transform: lowercase;
 	margin-bottom: 4px;
+}
+
+/********************************************Beneficios*******************************************************************/
+
+.beneficios {
+	height: 510px;
+	background-color: #fb9232;
+	width: 100%;
+	display: inline-block;
+}
+
+.container-ben {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 40px;
+	padding: 20px 40px 0 40px;
+	height: 348px;
+}
+
+.beneficio-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.beneficio-item:nth-child(2n + 1) h3 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+}
+
+.beneficio-item:nth-child(2n) h3 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	color: #ffffff;
+}
+
+.beneficio-item img {
+	min-height: 125px;
+	margin-bottom: 23px;
+}
+
+.beneficio-item p {
+	font-family: Roboto;
+	width: 300px;
+	min-height: 161px;
+	margin-top: 18px;
+	letter-spacing: -0.02em;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 23px;
+	text-align: justify;
+}
+
+.beneficio-item:nth-child(2n + 1) p {
+	color: #ffffff;
+}
+
+.beneficio-item:nth-child(2n) p {
+	color: #000000;
+}
+
+.beneficios h2 {
+	margin-top: 41px;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
 }
