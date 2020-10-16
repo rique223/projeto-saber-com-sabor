@@ -500,7 +500,7 @@
 	width: 100%;
 }
 
-.professores-item {
+.slider-professores-item {
 	background-color: #fff;
 	height: 806px !important;
 	width: 1096px !important;
@@ -508,4 +508,50 @@
 	left: 21%;
 	margin-top: 50px;
 	border-radius: 95px;
+}
+
+.slider-professores-item img {
+	height: 806px;
+	float: left;
+	border-radius: 87px 0 0 87px;
+}
+
+.slider-professores-item section {
+	float: inline-start;
+}
+
+.slider-professores-item section h2 {
+	text-align: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 52px;
+	line-height: 63px;
+	margin-top: 30px;
+	color: #fb9232;
+}
+
+.slider-professores-item section h2::after {
+	content: '';
+	width: 33%;
+	height: 3px;
+	background: #fb9232;
+	display: flex;
+	position: absolute;
+	left: 57.2%;
+	top: 14%;
+}
+
+.slider-professores-item section p {
+	padding: 65px 107px 0 57.2%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 54px;
+	text-align: justify;
+	letter-spacing: -0.02em;
+	font-feature-settings: 'ss07' on;
+	color: #000000;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
