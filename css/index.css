@@ -584,6 +584,7 @@
 	text-align: start;
 	padding-bottom: 12px;
 	display: flex;
+	align-items: center;
 	transition: padding-bottom 0.4s ease;
 }
 
@@ -606,7 +607,6 @@
 	font-weight: normal;
 	font-size: 38px;
 	color: #000000;
-	align-items: center;
 	text-transform: uppercase;
 }
 
