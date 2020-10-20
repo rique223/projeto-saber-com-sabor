@@ -553,3 +553,78 @@
 	color: #000000;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+/********************************************FAQ*******************************************************************/
+
+.faq {
+	padding: 65px 0;
+}
+
+.faq h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom: 55px;
+
+	color: #fb9232;
+}
+
+.container-faq {
+	padding: 0 5.4% 0 3%;
+}
+
+.colapsavel {
+	border: none;
+	background-color: transparent;
+	padding: 12px 0;
+	width: 100%;
+	text-align: start;
+	padding-bottom: 12px;
+	display: flex;
+	transition: padding-bottom 0.4s ease;
+}
+
+.colapsavel:focus {
+	outline: none;
+}
+
+.colapsavel img {
+	vertical-align: middle;
+	display: inline-block;
+	transform: none;
+	transition: transform 0.4s ease;
+	cursor: pointer;
+}
+
+.colapsavel span {
+	padding: 0 0 0 20px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: #000000;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+.conteudo {
+	max-height: 0;
+	overflow: hidden;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	transition: max-height 0.4s ease, padding-bottom 0.4s ease;
+}
+
+.conteudo p {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 34px;
+	text-align: justify;
+	letter-spacing: -0.02em;
+	margin-left: 3.5%;
+	color: #696969;
+}
