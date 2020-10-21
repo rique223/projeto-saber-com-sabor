@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Caslon+Text:ital@1&family=Oleo+Script+Swash+Caps&family=Playfair+Display:ital,wght@1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Caslon+Text:ital@1&family=Merriweather:wght@900&family=Oleo+Script+Swash+Caps&family=Playfair+Display:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arapey&display=swap");
 
 hmtl,
 body {
@@ -99,7 +101,64 @@ body {
 }*/
 
 .slider-cursos img {
-  height: 600px;
-  width: 280px;
-  margin-left: 22%;
+  height: 300px;
+  margin-left: 11%;
+  margin-top: 3%;
+}
+
+.slider-cursos h2 {
+  margin-top: -0.4%;
+  margin-left: 11%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  padding: 1%;
+  height: 26px;
+  width: 264px;
+}
+
+.fotoLeo {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 8.5%;
+  background-position: 0% 55%;
+  margin-top: -6%;
+  margin-left: 26.2%;
+  position: relative;
+  overflow: auto;
+}
+
+.slider-cursos .descricao h3 {
+  background: #fb9232;
+  height: 250px;
+  width: 237px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 11%;
+  margin-top: -5.1%;
+  padding-top: 3%;
+  padding-left: 4%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 15%;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 12.3%;
+  margin-top: -15.5%;
 }
