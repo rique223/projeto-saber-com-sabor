@@ -27,3 +27,23 @@ $('.slider-professores').slick({
 		nextArrow:
 			"<div class='slick-next'><svg width='28' height='50' viewBox='0 0 28 50' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M26.7986 24.0032L3.21182 0.416514C2.65647 -0.138838 1.76581 -0.138838 1.21046 0.416514C0.655107 0.971866 0.655107 1.86252 1.21046 2.41788L23.7913 24.9987L1.21046 47.5795C0.655107 48.1349 0.655107 49.0255 1.21046 49.5809C1.4829 49.8533 1.84964 50 2.2059 50C2.56216 50 2.92891 49.8638 3.20134 49.5809L26.7881 25.9941C27.3434 25.4493 27.3434 24.5481 26.7986 24.0032Z' fill='#FB9232'/></svg></div>",
 });
+
+
+let coll = document.getElementsByClassName("colapsavel");
+let i;
+
+for(i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function (e) {
+    let conteudo = this.nextElementSibling;
+    if(conteudo.style.maxHeight){
+      conteudo.style.paddingBottom = "0";
+      conteudo.style.maxHeight = null;
+      e.currentTarget.childNodes[0].style.transform = "none";
+    } else {
+      conteudo.style.paddingBottom = "1.5%";
+      conteudo.style.maxHeight = conteudo.scrollHeight + "px";
+      e.currentTarget.childNodes[0].style.transform = "rotateZ(45deg)";
+    }
+  });
+}
+
