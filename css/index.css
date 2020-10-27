@@ -7,6 +7,11 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+html,
+body {
+	width: 100%;
+}
+
 /********************************************Navbar*******************************************************************/
 
 .navbar {
@@ -403,18 +408,19 @@
 /********************************************Beneficios*******************************************************************/
 
 .beneficios {
-	height: 510px;
+	height: fit-content;
 	background-color: #fb9232;
 	width: 100%;
 	display: inline-block;
 }
 
 .container-ben {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 40px;
-	padding: 20px 40px 0 40px;
-	height: 348px;
+	display: flex;
+	padding: 20px 40px 20px 40px;
+	height: fit-content;
+	justify-content: center;
+	align-items: stretch;
+	align-content: space-between;
 }
 
 .beneficio-item {
@@ -422,6 +428,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	flex: 1;
 }
 
 .beneficio-item:nth-child(2n + 1) h3 {
@@ -485,8 +492,24 @@
 .slider-professores {
 	background: url(../assets/Home/bck-beneficios.jpg) no-repeat;
 	background-size: 100%;
-	height: 910px;
+	height: fit-content;
 	width: 100%;
+}
+
+.slider-professores .slick-next {
+	height: 100%;
+	width: 300px;
+	align-items: center;
+	justify-content: flex-end;
+	display: flex;
+}
+
+.slider-professores .slick-prev {
+	height: 100%;
+	width: 300px;
+	align-items: center;
+	justify-content: flex-start;
+	display: flex;
 }
 
 .slider-professores-item {
@@ -495,7 +518,7 @@
 	width: 1096px !important;
 	position: relative;
 	left: 21%;
-	margin-top: 50px;
+	margin: 50px 0;
 	border-radius: 95px;
 }
 
@@ -630,28 +653,6 @@
 }
 
 /********************************************Rodapé*******************************************************************/
-.logo-rodape {
-	grid-area: logo;
-}
-.telefone {
-	grid-area: telefone;
-}
-.wpp {
-	grid-area: wpp;
-}
-.localizacao {
-	grid-area: localizacao;
-}
-.email {
-	grid-area: email;
-}
-.socials {
-	grid-area: socials;
-}
-.rota {
-	grid-area: rotas;
-}
-
 .rodape {
 	background-color: #fb9232;
 	align-items: center;
@@ -660,19 +661,42 @@
 }
 
 .informacoes {
-	display: grid;
-	grid-template-areas:
-		'logo logo telefone telefone email email'
-		'logo logo wpp wpp socials socials'
-		'logo logo localizacao localizacao rotas rotas';
-	padding: 4% 10% 2.5% 10%;
-	grid-gap: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin: 0 17%;
+}
+
+.rodape-item-logo img {
+	max-width: 100%;
+}
+
+.rodape-item-logo {
+	margin-right: 5%;
+}
+
+.rodape-item-telefone {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.rodape-item-email {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.rodape-item-telefone,
+.rodape-item-email {
+	margin: 75px 0;
 }
 
 .telefone {
-	height: 100%;
 	border-left: 3px solid #000;
-	padding: 5px 0px 3px 7px;
+	padding: 4px 0px 11px 7px;
+	margin-bottom: 31px;
 }
 
 .telefone h2 img {
@@ -681,9 +705,9 @@
 }
 
 .wpp {
-	height: 94%;
 	border-left: 3px solid #000;
-	padding: 14px 0px 3px 7px;
+	padding: 4px 0px 11px 7px;
+	margin-bottom: 31px;
 }
 
 .wpp h2 img {
@@ -703,15 +727,15 @@
 }
 
 .email {
-	height: 100%;
 	border-left: 3px solid #000;
-	padding: 5px 0px 3px 7px;
+	padding: 4px 0px 11px 7px;
+	margin-bottom: 31px;
 }
 
 .socials {
-	height: 100%;
 	border-left: 3px solid #000;
-	padding: 5px 0px 3px 7px;
+	padding: 4px 0px 11px 7px;
+	margin-bottom: 31px;
 }
 
 .socials img {
@@ -816,4 +840,101 @@
 	text-align: center;
 	text-transform: uppercase;
 	color: #000000;
+}
+
+/********************************************Responsividade*******************************************************************/
+
+@media (max-width: 900px) {
+	.container-ben,
+	.informacoes,
+	.menu-rodape ul {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.container-ben {
+		padding: 0;
+	}
+
+	.faq {
+		padding: 30px 0;
+	}
+
+	.faq h2 {
+		font-size: 40px;
+	}
+
+	.colapsavel span {
+		font-size: 22px;
+	}
+
+	.conteudo p {
+		font-size: 22px;
+	}
+
+	.briefing p {
+		font-size: 25px;
+		line-height: 40px;
+	}
+
+	.slider-categorias .slick-next {
+		right: 2% !important;
+	}
+
+	.sobre {
+		margin: 25px 0;
+	}
+
+	.sobre-titulo {
+		width: auto;
+	}
+
+	.sobre-interna p {
+		line-height: 26px;
+		font-size: 20px;
+		margin: 0 20px 0 20px;
+	}
+
+	.briefing {
+		padding: 5% 6%;
+	}
+
+	.beneficio-item {
+		margin: 30px 0;
+	}
+
+	.beneficio-item h3 {
+		font-size: 35px !important;
+	}
+
+	.beneficio-item p {
+		font-size: 32px;
+		line-height: 32px;
+	}
+
+	.informacoes {
+		margin: 0;
+	}
+
+	.rodape-item-telefone,
+	.rodape-item-email {
+		margin: 30px 0;
+		width: 100%;
+	}
+
+	.rota {
+		align-self: center;
+	}
+
+	.menu-rodape ul {
+		align-items: center;
+	}
+
+	.copyright span {
+		font-size: 16px;
+	}
+
+	.rodape-item-logo {
+		margin: 50px 0%;
+	}
 }
