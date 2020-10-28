@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Caslon+Text:ital@1&family=Merriweather:wght@900&family=Oleo+Script+Swash+Caps&family=Playfair+Display:ital,wght@1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arapey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
 
 hmtl,
 body {
@@ -64,92 +65,91 @@ body {
   margin-left: 46%;
 }
 
+/*CATEGORIAS MASSAS*/
+
 .cat-massas > h3 {
   margin-top: 5%;
   margin-left: 12%;
   font-family: "Merriweather", serif;
   font-size: 24px;
 }
-
-/*.slick-post {
-  right: 5% !important;
+.slider-cursos-1 .slick-next {
+  margin-right: -5% !important;
 }
 
-.slick-post::before {
+.slider-cursos-1 .slick-next::before {
   content: "";
 }
 
-.slick-ant {
-  margin-left: 20% !important;
-  z-index: 2;
+.slider-cursos-1 .slick-prev {
+  margin-left: -26% !important;
 }
 
-.slick-ant::before {
+.slider-cursos-1 .slick-prev ::before {
   content: "";
 }
 
-.slider-1 {
-  background: url(../assets/Cursos/curso-1.png);
-  background-repeat: no-repeat;
-  height: 1100px;
+/*#curso-1 {
+  position: relative;
 }
-
-.slider-2 {
-  background: url(../assets/Cursos/curso-2.png);
-  background-repeat: no-repeat;
-  height: 1100px;
+#curso-1:hover {
+  top: -40px;
+  box-shadow: 0 2px 2px #666;
 }*/
 
-.slider-cursos img {
+.slider-cursos-1 .primeiro-curso {
+  cursor: pointer;
+}
+
+.slider-cursos-1 .primeiro-curso img {
   height: 300px;
-  margin-left: 11%;
+  margin-left: 32%;
   margin-top: 3%;
 }
 
-.slider-cursos h2 {
+.slider-cursos-1 .primeiro-curso h2 {
   margin-top: -0.4%;
-  margin-left: 11%;
+  margin-left: 32%;
   background: rgba(251, 146, 50, 0.81);
   font-family: "Inter", sans-serif;
   color: #fff;
   font-size: 24px;
   font-weight: 200;
-  padding: 1%;
-  height: 26px;
-  width: 264px;
+  height: 40px;
+  width: 277px;
+  padding-left: 3%;
+  padding-top: 3.5%;
 }
 
-.fotoLeo {
+.slider-cursos-1 .fotoLeo1 {
   background-image: url(../assets/Cursos/leo.png);
   height: 150px;
   background-repeat: no-repeat;
-  background-size: 8.5%;
-  background-position: 0% 55%;
-  margin-top: -6%;
-  margin-left: 26.2%;
+  background-size: 85%;
+  background-position: -5% 55%;
+  margin-top: -18%;
+  margin-left: 77%;
   position: relative;
-  overflow: auto;
 }
 
-.slider-cursos .descricao h3 {
+.slider-cursos-1 .primeiro-curso .descricao h3 {
   background: #fb9232;
-  height: 250px;
+  height: 220px;
   width: 237px;
   font-family: "Arapey", serif;
   font-size: 25px;
   font-weight: 400;
-  margin-left: 11%;
-  margin-top: -5.1%;
-  padding-top: 3%;
-  padding-left: 4%;
+  margin-left: 32%;
+  margin-top: -15.2%;
+  padding-top: 10%;
+  padding-left: 12%;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
     inset 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-.slider-cursos .descricao p {
+.slider-cursos-1 .primeiro-curso .descricao p {
   font-size: 12px;
   font-weight: 400;
-  margin-left: 15%;
   font-family: "Inter", sans-serif;
   line-height: 30px;
   text-align: justify;
@@ -159,6 +159,2484 @@ body {
   color: #fff;
   width: 255px;
   height: 180px;
-  margin-left: 12.3%;
-  margin-top: -15.5%;
+  margin-left: 36%;
+  margin-top: -39%;
 }
+
+.slider-cursos-1 .info-curso .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -8.6%;
+  margin-left: 35%;
+}
+
+.slider-cursos-1 .info-curso .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 22%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 300px;
+  padding-left: 19%;
+  padding-top: 2.3%;
+}
+
+.slider-cursos-1 .info-curso .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 11%;
+  margin-top: -4%;
+  margin-left: 60%;
+}
+
+.slider-cursos-1 .info-curso .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 56%;
+  margin-top: -10.5%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 32px;
+  padding-top: 2.5%;
+  padding-left: 9.5%;
+}
+
+.slider-cursos-1 .info-curso .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 17%;
+  margin-top: -7.5%;
+  margin-left: 77%;
+}
+
+.slider-cursos-1 .info-curso .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 73%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 41px;
+  padding-left: 8.5%;
+  padding-top: 2.4%;
+}
+
+/*Segundo curso*/
+
+.slider-cursos-1 .segundo-curso img {
+  height: 300px;
+  margin-left: 17.2%;
+  margin-top: 3%;
+}
+
+.slider-cursos-1 .segundo-curso h2 {
+  margin-top: -0.4%;
+  margin-left: 17%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 3%;
+  padding-top: 3.5%;
+  height: 40px;
+  width: 278px;
+}
+
+.slider-cursos-1 .fotoLeo2 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 53%;
+  background-position: 0% 55%;
+  margin-top: -18%;
+  margin-left: 60.5%;
+  position: relative;
+  overflow: auto;
+}
+
+.slider-cursos-1 .segundo-curso .descricao h3 {
+  background: #fb9232;
+  height: 221px;
+  width: 240px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 17%;
+  margin-top: -15.2%;
+  padding-top: 9.6%;
+  padding-left: 11.5%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-1 .segundo-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 21%;
+  margin-top: -39.5%;
+}
+
+.slider-cursos-1 .info-curso2 .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 6.2%;
+  margin-top: -8.2%;
+  margin-left: 20%;
+}
+
+.slider-cursos-1 .info-curso2 .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 13%;
+  margin-top: -10.8%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 300px;
+  padding-left: 13.2%;
+  padding-top: 2.5%;
+}
+
+.slider-cursos-1 .info-curso2 .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 9%;
+  margin-top: -4.5%;
+  margin-left: 45%;
+}
+
+.slider-cursos-1 .info-curso2 .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 41.5%;
+  margin-top: -10%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 37px;
+  padding-top: 2.5%;
+  padding-left: 9.6%;
+}
+
+.slider-cursos-1 .info-curso2 .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  margin-top: -9%;
+  margin-left: 64%;
+}
+
+.slider-cursos-1 .info-curso2 .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 60%;
+  margin-top: -10.6%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 39px;
+  padding-left: 8.2%;
+  padding-top: 2%;
+}
+
+/*TERCEIRO CURSO*/
+
+.slider-cursos-1 .terceiro-curso img {
+  height: 300px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.slider-cursos-1 .terceiro-curso h2 {
+  margin-top: -0.1%;
+  margin-left: 3.2%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 3%;
+  padding-top: 3.5%;
+  height: 40px;
+  width: 276px;
+}
+
+.slider-cursos-1 .fotoLeo3 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 0% 55%;
+  margin-top: -18%;
+  margin-left: 45%;
+  position: relative;
+}
+
+.slider-cursos-1 .terceiro-curso .descricao h3 {
+  background: #fb9232;
+  height: 219px;
+  width: 238px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 3.2%;
+  margin-top: -15.3%;
+  padding-top: 9.6%;
+  padding-left: 11.5%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-1 .terceiro-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 7%;
+  margin-top: -39.5%;
+}
+
+.slider-cursos-1 .info-curso3 .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 5.5%;
+  margin-top: -8.5%;
+  margin-left: 6%;
+}
+
+.slider-cursos-1 .info-curso3 .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 3%;
+  margin-top: -10.4%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 280px;
+  padding-left: 10%;
+  padding-top: 2.2%;
+}
+
+.slider-cursos-1 .info-curso3 .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -4.5%;
+  margin-left: 31%;
+}
+
+.slider-cursos-1 .info-curso3 .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 28%;
+  margin-top: -10%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 35px;
+  padding-top: 2.5%;
+  padding-left: 9%;
+}
+
+.slider-cursos-1 .info-curso3 .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -8%;
+  margin-left: 50%;
+}
+
+.slider-cursos-1 .info-curso3 .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 46%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 39px;
+  padding-left: 8%;
+  padding-top: 2%;
+}
+
+/*CATEGORIAS RISOTO*/
+
+.cat-risotos > h3 {
+  margin-top: 2%;
+  margin-left: 12%;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+}
+.slider-cursos-2 .slick-next {
+  margin-right: -5% !important;
+}
+
+.slider-cursos-2 .slick-next::before {
+  content: "";
+}
+
+.slider-cursos-2 .slick-prev {
+  margin-left: -26% !important;
+}
+
+.slider-cursos-2 .slick-prev ::before {
+  content: "";
+}
+
+/*#curso-1 {
+  position: relative;
+}
+#curso-1:hover {
+  top: -40px;
+  box-shadow: 0 2px 2px #666;
+}*/
+.slider-cursos-2 .primeiro-curso {
+  cursor: pointer;
+}
+
+.slider-cursos-2 .primeiro-curso img {
+  height: 300px;
+  margin-left: 32%;
+  margin-top: 3%;
+}
+
+.slider-cursos-2 .primeiro-curso h2 {
+  margin-top: -0.4%;
+  margin-left: 32%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  height: 40px;
+  width: 277px;
+  padding-left: 3%;
+  padding-top: 3.5%;
+}
+
+.slider-cursos-2 .fotoLeo1 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: -5% 55%;
+  margin-top: -18%;
+  margin-left: 77%;
+  position: relative;
+}
+
+.slider-cursos-2 .primeiro-curso .descricao h3 {
+  background: #fb9232;
+  height: 220px;
+  width: 237px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 32%;
+  margin-top: -15.2%;
+  padding-top: 10%;
+  padding-left: 12%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-2 .primeiro-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 36%;
+  margin-top: -39%;
+}
+
+.slider-cursos-2 .info-curso .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -8.6%;
+  margin-left: 35%;
+}
+
+.slider-cursos-2 .info-curso .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 22%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 300px;
+  padding-left: 19%;
+  padding-top: 2.3%;
+}
+
+.slider-cursos-2 .info-curso .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 11%;
+  margin-top: -4%;
+  margin-left: 60%;
+}
+
+.slider-cursos-2 .info-curso .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 56%;
+  margin-top: -10.5%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 32px;
+  padding-top: 2.5%;
+  padding-left: 9.5%;
+}
+
+.slider-cursos-2 .info-curso .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 17%;
+  margin-top: -7.5%;
+  margin-left: 77%;
+}
+
+.slider-cursos-2 .info-curso .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 73%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 41px;
+  padding-left: 8.5%;
+  padding-top: 2.4%;
+}
+
+/*Segundo curso*/
+
+.slider-cursos-2 .segundo-curso img {
+  height: 300px;
+  margin-left: 17.2%;
+  margin-top: 3%;
+}
+
+.slider-cursos-2 .segundo-curso h2 {
+  margin-top: -0.4%;
+  margin-left: 17%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 3%;
+  padding-top: 3.5%;
+  height: 40px;
+  width: 278px;
+}
+
+.slider-cursos-2 .fotoLeo2 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 53%;
+  background-position: 0% 55%;
+  margin-top: -18%;
+  margin-left: 60.5%;
+  position: relative;
+  overflow: auto;
+}
+
+.slider-cursos-2 .segundo-curso .descricao h3 {
+  background: #fb9232;
+  height: 221px;
+  width: 240px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 17%;
+  margin-top: -15.2%;
+  padding-top: 9.6%;
+  padding-left: 11.5%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-2 .segundo-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 21%;
+  margin-top: -39.5%;
+}
+
+.slider-cursos-2 .info-curso2 .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 6.2%;
+  margin-top: -8.2%;
+  margin-left: 20%;
+}
+
+.slider-cursos-2 .info-curso2 .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 13%;
+  margin-top: -10.8%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 300px;
+  padding-left: 13.2%;
+  padding-top: 2.5%;
+}
+
+.slider-cursos-2 .info-curso2 .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 9%;
+  margin-top: -4.5%;
+  margin-left: 45%;
+}
+
+.slider-cursos-2 .info-curso2 .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 41.5%;
+  margin-top: -10%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 37px;
+  padding-top: 2.5%;
+  padding-left: 9.6%;
+}
+
+.slider-cursos-2 .info-curso2 .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  margin-top: -9%;
+  margin-left: 64%;
+}
+
+.slider-cursos-2 .info-curso2 .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 60%;
+  margin-top: -10.6%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 39px;
+  padding-left: 8.2%;
+  padding-top: 2%;
+}
+
+/*TERCEIRO CURSO*/
+
+.slider-cursos-2 .terceiro-curso img {
+  height: 300px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.slider-cursos-2 .terceiro-curso h2 {
+  margin-top: -0.1%;
+  margin-left: 3.2%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 3%;
+  padding-top: 3.5%;
+  height: 40px;
+  width: 276px;
+}
+
+.slider-cursos-2 .fotoLeo3 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 0% 55%;
+  margin-top: -18%;
+  margin-left: 45%;
+  position: relative;
+}
+
+.slider-cursos-2 .terceiro-curso .descricao h3 {
+  background: #fb9232;
+  height: 219px;
+  width: 238px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 3.2%;
+  margin-top: -15.3%;
+  padding-top: 9.6%;
+  padding-left: 11.5%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-2 .terceiro-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 7%;
+  margin-top: -39.5%;
+}
+
+.slider-cursos-2 .info-curso3 .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 5.5%;
+  margin-top: -8.5%;
+  margin-left: 6%;
+}
+
+.slider-cursos-2 .info-curso3 .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 3%;
+  margin-top: -10.4%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 280px;
+  padding-left: 10%;
+  padding-top: 2.2%;
+}
+
+.slider-cursos-2 .info-curso3 .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -4.5%;
+  margin-left: 31%;
+}
+
+.slider-cursos-2 .info-curso3 .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 28%;
+  margin-top: -10%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 35px;
+  padding-top: 2.5%;
+  padding-left: 9%;
+}
+
+.slider-cursos-2 .info-curso3 .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -8%;
+  margin-left: 50%;
+}
+
+.slider-cursos-2 .info-curso3 .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 46%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 39px;
+  padding-left: 8%;
+  padding-top: 2%;
+}
+/*CATEGORIAS CONFEITARIA*/
+
+.cat-confeitaria > h3 {
+  margin-top: 2%;
+  margin-left: 12%;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+}
+.slider-cursos-3 .slick-next {
+  margin-right: -5% !important;
+}
+
+.slider-cursos-3 .slick-next::before {
+  content: "";
+}
+
+.slider-cursos-3 .slick-prev {
+  margin-left: -26% !important;
+}
+
+.slider-cursos-3 .slick-prev ::before {
+  content: "";
+}
+
+/*#curso-1 {
+  position: relative;
+}
+#curso-1:hover {
+  top: -40px;
+  box-shadow: 0 2px 2px #666;
+}*/
+.slider-cursos-3 .primeiro-curso {
+  cursor: pointer;
+}
+
+.slider-cursos-3 .primeiro-curso img {
+  height: 300px;
+  margin-left: 32%;
+  margin-top: 3%;
+}
+
+.slider-cursos-3 .primeiro-curso h2 {
+  margin-top: -0.4%;
+  margin-left: 32%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  height: 40px;
+  width: 277px;
+  padding-left: 3%;
+  padding-top: 3.5%;
+}
+
+.slider-cursos-3 .fotoLeo1 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: -5% 55%;
+  margin-top: -18%;
+  margin-left: 77%;
+  position: relative;
+}
+
+.slider-cursos-3 .primeiro-curso .descricao h3 {
+  background: #fb9232;
+  height: 220px;
+  width: 237px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 32%;
+  margin-top: -15.3%;
+  padding-top: 10%;
+  padding-left: 12%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-3 .primeiro-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 36%;
+  margin-top: -39%;
+}
+
+.slider-cursos-3 .info-curso .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -8.6%;
+  margin-left: 35%;
+}
+
+.slider-cursos-3 .info-curso .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 22%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 300px;
+  padding-left: 19%;
+  padding-top: 2.3%;
+}
+
+.slider-cursos-3 .info-curso .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 11%;
+  margin-top: -4%;
+  margin-left: 60%;
+}
+
+.slider-cursos-3 .info-curso .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 56%;
+  margin-top: -10.5%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 32px;
+  padding-top: 2.5%;
+  padding-left: 9.5%;
+}
+
+.slider-cursos-3 .info-curso .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 17%;
+  margin-top: -7.5%;
+  margin-left: 77%;
+}
+
+.slider-cursos-3 .info-curso .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 73%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 41px;
+  padding-left: 8.5%;
+  padding-top: 2.4%;
+}
+
+/*Segundo curso*/
+
+.slider-cursos-3 .segundo-curso img {
+  height: 300px;
+  margin-left: 17.2%;
+  margin-top: 3%;
+}
+
+.slider-cursos-3 .segundo-curso h2 {
+  margin-top: -0.4%;
+  margin-left: 17%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 3%;
+  padding-top: 3.5%;
+  height: 40px;
+  width: 278px;
+}
+
+.slider-cursos-3 .fotoLeo2 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 53%;
+  background-position: 0% 55%;
+  margin-top: -18%;
+  margin-left: 60.5%;
+  position: relative;
+  overflow: auto;
+}
+
+.slider-cursos-3 .segundo-curso .descricao h3 {
+  background: #fb9232;
+  height: 221px;
+  width: 240px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 17%;
+  margin-top: -15.3%;
+  padding-top: 9.6%;
+  padding-left: 11.5%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-3 .segundo-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 21%;
+  margin-top: -39.5%;
+}
+
+.slider-cursos-3 .info-curso2 .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 6.2%;
+  margin-top: -8.2%;
+  margin-left: 20%;
+}
+
+.slider-cursos-3 .info-curso2 .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 13%;
+  margin-top: -10.8%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 300px;
+  padding-left: 13.2%;
+  padding-top: 2.5%;
+}
+
+.slider-cursos-3 .info-curso2 .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 9%;
+  margin-top: -4.5%;
+  margin-left: 45%;
+}
+
+.slider-cursos-3 .info-curso2 .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 41.5%;
+  margin-top: -10%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 37px;
+  padding-top: 2.5%;
+  padding-left: 9.6%;
+}
+
+.slider-cursos-3 .info-curso2 .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  margin-top: -9%;
+  margin-left: 64%;
+}
+
+.slider-cursos-3 .info-curso2 .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 60%;
+  margin-top: -10.6%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 39px;
+  padding-left: 8.2%;
+  padding-top: 2%;
+}
+
+/*TERCEIRO CURSO*/
+
+.slider-cursos-3 .terceiro-curso img {
+  height: 300px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.slider-cursos-3 .terceiro-curso h2 {
+  margin-top: -0.1%;
+  margin-left: 3.2%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 3%;
+  padding-top: 3.5%;
+  height: 40px;
+  width: 276px;
+}
+
+.slider-cursos-3 .fotoLeo3 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 0% 55%;
+  margin-top: -18%;
+  margin-left: 45%;
+  position: relative;
+}
+
+.slider-cursos-3 .terceiro-curso .descricao h3 {
+  background: #fb9232;
+  height: 219px;
+  width: 238px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 3.2%;
+  margin-top: -15.4%;
+  padding-top: 9.6%;
+  padding-left: 11.5%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-3 .terceiro-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 7%;
+  margin-top: -39.5%;
+}
+
+.slider-cursos-3 .info-curso3 .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 5.5%;
+  margin-top: -8.5%;
+  margin-left: 6%;
+}
+
+.slider-cursos-3 .info-curso3 .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 3%;
+  margin-top: -10.4%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 280px;
+  padding-left: 10%;
+  padding-top: 2.2%;
+}
+
+.slider-cursos-3 .info-curso3 .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -4.5%;
+  margin-left: 31%;
+}
+
+.slider-cursos-3 .info-curso3 .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 28%;
+  margin-top: -10%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 35px;
+  padding-top: 2.5%;
+  padding-left: 9%;
+}
+
+.slider-cursos-3 .info-curso3 .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -8%;
+  margin-left: 50%;
+}
+
+.slider-cursos-3 .info-curso3 .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 46%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 39px;
+  padding-left: 8%;
+  padding-top: 2%;
+}
+/*CATEGORIAS CARNES E FRANGO*/
+
+.cat-carnes > h3 {
+  margin-top: 2%;
+  margin-left: 12%;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+}
+.slider-cursos-4 .slick-next {
+  margin-right: -5% !important;
+}
+
+.slider-cursos-4 .slick-next::before {
+  content: "";
+}
+
+.slider-cursos-4 .slick-prev {
+  margin-left: -26% !important;
+}
+
+.slider-cursos-4 .slick-prev ::before {
+  content: "";
+}
+
+/*#curso-1 {
+  position: relative;
+}
+#curso-1:hover {
+  top: -40px;
+  box-shadow: 0 2px 2px #666;
+}*/
+.slider-cursos-4 .primeiro-curso {
+  cursor: pointer;
+}
+
+.slider-cursos-4 .primeiro-curso img {
+  height: 300px;
+  margin-left: 32%;
+  margin-top: 3%;
+}
+
+.slider-cursos-4 .primeiro-curso h2 {
+  margin-top: -0.4%;
+  margin-left: 32%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  height: 40px;
+  width: 277px;
+  padding-left: 3%;
+  padding-top: 3.5%;
+}
+
+.slider-cursos-4 .fotoLeo1 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: -5% 55%;
+  margin-top: -18%;
+  margin-left: 77%;
+  position: relative;
+}
+
+.slider-cursos-4 .primeiro-curso .descricao h3 {
+  background: #fb9232;
+  height: 220px;
+  width: 237px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 32%;
+  margin-top: -15.3%;
+  padding-top: 10%;
+  padding-left: 12%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-4 .primeiro-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 36%;
+  margin-top: -39%;
+}
+
+.slider-cursos-4 .info-curso .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -8.6%;
+  margin-left: 35%;
+}
+
+.slider-cursos-4 .info-curso .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 22%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 300px;
+  padding-left: 19%;
+  padding-top: 2.3%;
+}
+
+.slider-cursos-4 .info-curso .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 11%;
+  margin-top: -4%;
+  margin-left: 60%;
+}
+
+.slider-cursos-4 .info-curso .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 56%;
+  margin-top: -10.5%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 32px;
+  padding-top: 2.5%;
+  padding-left: 9.5%;
+}
+
+.slider-cursos-4 .info-curso .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 17%;
+  margin-top: -7.5%;
+  margin-left: 77%;
+}
+
+.slider-cursos-4 .info-curso .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 73%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 41px;
+  padding-left: 8.5%;
+  padding-top: 2.4%;
+}
+
+/*Segundo curso*/
+
+.slider-cursos-4 .segundo-curso img {
+  height: 300px;
+  margin-left: 17.2%;
+  margin-top: 3%;
+}
+
+.slider-cursos-4 .segundo-curso h2 {
+  margin-top: -0.4%;
+  margin-left: 17%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 3%;
+  padding-top: 3.5%;
+  height: 40px;
+  width: 278px;
+}
+
+.slider-cursos-4 .fotoLeo2 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 53%;
+  background-position: 0% 55%;
+  margin-top: -18%;
+  margin-left: 60.5%;
+  position: relative;
+  overflow: auto;
+}
+
+.slider-cursos-4 .segundo-curso .descricao h3 {
+  background: #fb9232;
+  height: 221px;
+  width: 240px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 17%;
+  margin-top: -15.3%;
+  padding-top: 9.6%;
+  padding-left: 11.5%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-4 .segundo-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 21%;
+  margin-top: -39.5%;
+}
+
+.slider-cursos-4 .info-curso2 .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 6.2%;
+  margin-top: -8.2%;
+  margin-left: 20%;
+}
+
+.slider-cursos-4 .info-curso2 .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 13%;
+  margin-top: -10.8%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 300px;
+  padding-left: 13.2%;
+  padding-top: 2.5%;
+}
+
+.slider-cursos-4 .info-curso2 .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 9%;
+  margin-top: -4.5%;
+  margin-left: 45%;
+}
+
+.slider-cursos-4 .info-curso2 .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 41.5%;
+  margin-top: -10%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 37px;
+  padding-top: 2.5%;
+  padding-left: 9.6%;
+}
+
+.slider-cursos-4 .info-curso2 .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  margin-top: -9%;
+  margin-left: 64%;
+}
+
+.slider-cursos-4 .info-curso2 .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 60%;
+  margin-top: -10.6%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 39px;
+  padding-left: 8.2%;
+  padding-top: 2%;
+}
+
+/*TERCEIRO CURSO*/
+
+.slider-cursos-4 .terceiro-curso img {
+  height: 300px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.slider-cursos-4 .terceiro-curso h2 {
+  margin-top: -0.1%;
+  margin-left: 3.2%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 3%;
+  padding-top: 3.5%;
+  height: 40px;
+  width: 276px;
+}
+
+.slider-cursos-4 .fotoLeo3 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 0% 55%;
+  margin-top: -18%;
+  margin-left: 45%;
+  position: relative;
+}
+
+.slider-cursos-4 .terceiro-curso .descricao h3 {
+  background: #fb9232;
+  height: 219px;
+  width: 238px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 3.2%;
+  margin-top: -15.3%;
+  padding-top: 9.6%;
+  padding-left: 11.5%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-4 .terceiro-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 7%;
+  margin-top: -39.5%;
+}
+
+.slider-cursos-4 .info-curso3 .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 5.5%;
+  margin-top: -8.5%;
+  margin-left: 6%;
+}
+
+.slider-cursos-4 .info-curso3 .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 3%;
+  margin-top: -10.4%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 280px;
+  padding-left: 10%;
+  padding-top: 2.2%;
+}
+
+.slider-cursos-4 .info-curso3 .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -4.5%;
+  margin-left: 31%;
+}
+
+.slider-cursos-4 .info-curso3 .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 28%;
+  margin-top: -10%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 35px;
+  padding-top: 2.5%;
+  padding-left: 9%;
+}
+
+.slider-cursos-4 .info-curso3 .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -8%;
+  margin-left: 50%;
+}
+
+.slider-cursos-4 .info-curso3 .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 46%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 39px;
+  padding-left: 8%;
+  padding-top: 2%;
+}
+
+/*CATEGORIAS FRUTOS DO MAR*/
+
+.cat-frutosdomar > h3 {
+  margin-top: 2%;
+  margin-left: 12%;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+}
+.slider-cursos-5 .slick-next {
+  margin-right: -5% !important;
+}
+
+.slider-cursos-5 .slick-next::before {
+  content: "";
+}
+
+.slider-cursos-5 .slick-prev {
+  margin-left: -26% !important;
+}
+
+.slider-cursos-5 .slick-prev ::before {
+  content: "";
+}
+
+/*#curso-1 {
+  position: relative;
+}
+#curso-1:hover {
+  top: -40px;
+  box-shadow: 0 2px 2px #666;
+}*/
+.slider-cursos-5 .primeiro-curso {
+  cursor: pointer;
+}
+
+.slider-cursos-5 .primeiro-curso img {
+  height: 300px;
+  margin-left: 32%;
+  margin-top: 3%;
+}
+
+.slider-cursos-5 .primeiro-curso h2 {
+  margin-top: -0.4%;
+  margin-left: 32%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  height: 40px;
+  width: 277px;
+  padding-left: 3%;
+  padding-top: 3.5%;
+}
+
+.slider-cursos-5 .fotoLeo1 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: -5% 55%;
+  margin-top: -18%;
+  margin-left: 77%;
+  position: relative;
+}
+
+.slider-cursos-5 .primeiro-curso .descricao h3 {
+  background: #fb9232;
+  height: 220px;
+  width: 237px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 32%;
+  margin-top: -15.2%;
+  padding-top: 10%;
+  padding-left: 12%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-5 .primeiro-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 36%;
+  margin-top: -39%;
+}
+
+.slider-cursos-5 .info-curso .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -8.6%;
+  margin-left: 35%;
+}
+
+.slider-cursos-5 .info-curso .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 22%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 300px;
+  padding-left: 19%;
+  padding-top: 2.3%;
+}
+
+.slider-cursos-5 .info-curso .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 11%;
+  margin-top: -4%;
+  margin-left: 60%;
+}
+
+.slider-cursos-5 .info-curso .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 56%;
+  margin-top: -10.5%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 32px;
+  padding-top: 2.5%;
+  padding-left: 9.5%;
+}
+
+.slider-cursos-5 .info-curso .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 17%;
+  margin-top: -7.5%;
+  margin-left: 77%;
+}
+
+.slider-cursos-5 .info-curso .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 73%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 41px;
+  padding-left: 8.5%;
+  padding-top: 2.4%;
+}
+
+/*Segundo curso*/
+
+.slider-cursos-5 .segundo-curso img {
+  height: 300px;
+  margin-left: 17.2%;
+  margin-top: 3%;
+}
+
+.slider-cursos-5 .segundo-curso h2 {
+  margin-top: -0.4%;
+  margin-left: 17%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 3%;
+  padding-top: 3.5%;
+  height: 40px;
+  width: 278px;
+}
+
+.slider-cursos-5 .fotoLeo2 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 53%;
+  background-position: 0% 55%;
+  margin-top: -18%;
+  margin-left: 60.5%;
+  position: relative;
+  overflow: auto;
+}
+
+.slider-cursos-5 .segundo-curso .descricao h3 {
+  background: #fb9232;
+  height: 221px;
+  width: 240px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 17%;
+  margin-top: -15.2%;
+  padding-top: 9.6%;
+  padding-left: 11.5%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-5 .segundo-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 21%;
+  margin-top: -39.5%;
+}
+
+.slider-cursos-5 .info-curso2 .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 6.2%;
+  margin-top: -8.2%;
+  margin-left: 20%;
+}
+
+.slider-cursos-5 .info-curso2 .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 13%;
+  margin-top: -10.8%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 300px;
+  padding-left: 13.2%;
+  padding-top: 2.5%;
+}
+
+.slider-cursos-5 .info-curso2 .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 9%;
+  margin-top: -4.5%;
+  margin-left: 45%;
+}
+
+.slider-cursos-5 .info-curso2 .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 41.5%;
+  margin-top: -10%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 37px;
+  padding-top: 2.5%;
+  padding-left: 9.6%;
+}
+
+.slider-cursos-5 .info-curso2 .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  margin-top: -9%;
+  margin-left: 64%;
+}
+
+.slider-cursos-5 .info-curso2 .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 60%;
+  margin-top: -10.6%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 39px;
+  padding-left: 8.2%;
+  padding-top: 2%;
+}
+
+/*TERCEIRO CURSO*/
+
+.slider-cursos-5 .terceiro-curso img {
+  height: 300px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.slider-cursos-5 .terceiro-curso h2 {
+  margin-top: -0.1%;
+  margin-left: 3.2%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 3%;
+  padding-top: 3.5%;
+  height: 40px;
+  width: 276px;
+}
+
+.slider-cursos-5 .fotoLeo3 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 0% 55%;
+  margin-top: -18%;
+  margin-left: 45%;
+  position: relative;
+}
+
+.slider-cursos-5 .terceiro-curso .descricao h3 {
+  background: #fb9232;
+  height: 219px;
+  width: 238px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 3.2%;
+  margin-top: -15.3%;
+  padding-top: 9.6%;
+  padding-left: 11.5%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-5 .terceiro-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 7%;
+  margin-top: -39.5%;
+}
+
+.slider-cursos-5 .info-curso3 .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 5.5%;
+  margin-top: -8.5%;
+  margin-left: 6%;
+}
+
+.slider-cursos-5 .info-curso3 .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 3%;
+  margin-top: -10.4%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 280px;
+  padding-left: 10%;
+  padding-top: 2.2%;
+}
+
+.slider-cursos-5 .info-curso3 .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -4.5%;
+  margin-left: 31%;
+}
+
+.slider-cursos-5 .info-curso3 .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 28%;
+  margin-top: -10%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 35px;
+  padding-top: 2.5%;
+  padding-left: 9%;
+}
+
+.slider-cursos-5 .info-curso3 .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -8%;
+  margin-left: 50%;
+}
+
+.slider-cursos-5 .info-curso3 .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 46%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 39px;
+  padding-left: 8%;
+  padding-top: 2%;
+}
+/*CATEGORIAS PANIFICAÇÃO*/
+
+.cat-panificacao > h3 {
+  margin-top: 2%;
+  margin-left: 12%;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+}
+.slider-cursos-6 .slick-next {
+  margin-right: -5% !important;
+}
+
+.slider-cursos-6 .slick-next::before {
+  content: "";
+}
+
+.slider-cursos-6 .slick-prev {
+  margin-left: -26% !important;
+}
+
+.slider-cursos-6 .slick-prev ::before {
+  content: "";
+}
+
+/*#curso-1 {
+  position: relative;
+}
+#curso-1:hover {
+  top: -40px;
+  box-shadow: 0 2px 2px #666;
+}*/
+.slider-cursos-6 .primeiro-curso {
+  cursor: pointer;
+}
+
+.slider-cursos-6 .primeiro-curso img {
+  height: 300px;
+  margin-left: 32%;
+  margin-top: 3%;
+}
+
+.slider-cursos-6 .primeiro-curso h2 {
+  margin-top: -0.4%;
+  margin-left: 32%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  height: 40px;
+  width: 277px;
+  padding-left: 3%;
+  padding-top: 3.5%;
+}
+
+.slider-cursos-6 .fotoLeo1 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: -5% 55%;
+  margin-top: -18%;
+  margin-left: 77%;
+  position: relative;
+}
+
+.slider-cursos-6 .primeiro-curso .descricao h3 {
+  background: #fb9232;
+  height: 220px;
+  width: 237px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 32%;
+  margin-top: -15.2%;
+  padding-top: 10%;
+  padding-left: 12%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-6 .primeiro-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 36%;
+  margin-top: -39%;
+}
+
+.slider-cursos-6 .info-curso .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -8.6%;
+  margin-left: 35%;
+}
+
+.slider-cursos-6 .info-curso .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 22%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 300px;
+  padding-left: 19%;
+  padding-top: 2.3%;
+}
+
+.slider-cursos-6 .info-curso .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 11%;
+  margin-top: -4%;
+  margin-left: 60%;
+}
+
+.slider-cursos-6 .info-curso .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 56%;
+  margin-top: -10.5%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 32px;
+  padding-top: 2.5%;
+  padding-left: 9.5%;
+}
+
+.slider-cursos-6 .info-curso .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 17%;
+  margin-top: -7.5%;
+  margin-left: 77%;
+}
+
+.slider-cursos-6 .info-curso .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 73%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 41px;
+  padding-left: 8.5%;
+  padding-top: 2.4%;
+}
+
+/*Segundo curso*/
+
+.slider-cursos-6 .segundo-curso img {
+  height: 300px;
+  margin-left: 17.2%;
+  margin-top: 3%;
+}
+
+.slider-cursos-6 .segundo-curso h2 {
+  margin-top: -0.4%;
+  margin-left: 17%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 3%;
+  padding-top: 3.5%;
+  height: 40px;
+  width: 278px;
+}
+
+.slider-cursos-6 .fotoLeo2 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 53%;
+  background-position: 0% 55%;
+  margin-top: -18%;
+  margin-left: 60.5%;
+  position: relative;
+  overflow: auto;
+}
+
+.slider-cursos-6 .segundo-curso .descricao h3 {
+  background: #fb9232;
+  height: 221px;
+  width: 240px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 17%;
+  margin-top: -15.2%;
+  padding-top: 9.6%;
+  padding-left: 11.5%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-6 .segundo-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 21%;
+  margin-top: -39.5%;
+}
+
+.slider-cursos-6 .info-curso2 .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 6.2%;
+  margin-top: -8.2%;
+  margin-left: 20%;
+}
+
+.slider-cursos-6 .info-curso2 .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 13%;
+  margin-top: -10.8%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 300px;
+  padding-left: 13.2%;
+  padding-top: 2.5%;
+}
+
+.slider-cursos-6 .info-curso2 .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 9%;
+  margin-top: -4.5%;
+  margin-left: 45%;
+}
+
+.slider-cursos-6 .info-curso2 .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 41.5%;
+  margin-top: -10%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 37px;
+  padding-top: 2.5%;
+  padding-left: 9.6%;
+}
+
+.slider-cursos-6 .info-curso2 .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 10%;
+  margin-top: -9%;
+  margin-left: 64%;
+}
+
+.slider-cursos-6 .info-curso2 .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 60%;
+  margin-top: -10.6%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 39px;
+  padding-left: 8.2%;
+  padding-top: 2%;
+}
+
+/*TERCEIRO CURSO*/
+
+.slider-cursos-6 .terceiro-curso img {
+  height: 300px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.slider-cursos-6 .terceiro-curso h2 {
+  margin-top: -0.1%;
+  margin-left: 3.2%;
+  background: rgba(251, 146, 50, 0.81);
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 3%;
+  padding-top: 3.5%;
+  height: 40px;
+  width: 276px;
+}
+
+.slider-cursos-6 .fotoLeo3 {
+  background-image: url(../assets/Cursos/leo.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 0% 55%;
+  margin-top: -18%;
+  margin-left: 45%;
+  position: relative;
+}
+
+.slider-cursos-6 .terceiro-curso .descricao h3 {
+  background: #fb9232;
+  height: 219px;
+  width: 238px;
+  font-family: "Arapey", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 3.2%;
+  margin-top: -15.3%;
+  padding-top: 9.6%;
+  padding-left: 11.5%;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slider-cursos-6 .terceiro-curso .descricao p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: normal;
+  line-height: 130%;
+  font-style: normal;
+  color: #fff;
+  width: 255px;
+  height: 180px;
+  margin-left: 7%;
+  margin-top: -39.5%;
+}
+
+.slider-cursos-6 .info-curso3 .dificuldade .icone-dificuldade {
+  background-image: url(../assets/Cursos/dificuldade.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 5.5%;
+  margin-top: -8.5%;
+  margin-left: 6%;
+}
+
+.slider-cursos-6 .info-curso3 .dificuldade p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 3%;
+  margin-top: -10.4%;
+  font-weight: 100;
+  font-size: 14px;
+  border-top: #fff 1px solid;
+  width: 280px;
+  padding-left: 10%;
+  padding-top: 2.2%;
+}
+
+.slider-cursos-6 .info-curso3 .comentarios .icone-comentarios {
+  background-image: url(../assets/Cursos/chat.png);
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -4.5%;
+  margin-left: 31%;
+}
+
+.slider-cursos-6 .info-curso3 .comentarios p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 28%;
+  margin-top: -10%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 35px;
+  padding-top: 2.5%;
+  padding-left: 9%;
+}
+
+.slider-cursos-6 .info-curso3 .valor .icone-valor {
+  background-image: url(../assets/Cursos/coin.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 7%;
+  margin-top: -8%;
+  margin-left: 50%;
+}
+
+.slider-cursos-6 .info-curso3 .valor p {
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+  margin-left: 46%;
+  margin-top: -11%;
+  font-weight: 100;
+  font-size: 14px;
+  border-left: #fff 1px solid;
+  height: 39px;
+  padding-left: 8%;
+  padding-top: 2%;
+}
+
+/*CURSOS PRESENCIAIS*/
+
+.titulo2 > h2 {
+  text-align: center;
+  font-size: 44px;
+  color: #fb9232;
+  margin-top: 8%;
+  font-family: "Playfair Display", serif;
+  overflow: auto;
+}
+
+.content-line2 {
+  content: "";
+  width: 8%;
+  height: 1px;
+  background: #fb9232;
+  margin-top: 1.3%;
+  margin-left: 46%;
+}
+
+.cursos-presenciais .em-breve {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+}
+/*.cursos-presenciais .em-breve img {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}*/
