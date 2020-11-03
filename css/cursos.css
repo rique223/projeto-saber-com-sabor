@@ -74,7 +74,7 @@ body {
   font-size: 24px;
 }
 .slider-cursos-1 .slick-next {
-  margin-right: -5% !important;
+  margin-right: 5% !important;
 }
 
 .slider-cursos-1 .slick-next::before {
@@ -82,7 +82,7 @@ body {
 }
 
 .slider-cursos-1 .slick-prev {
-  margin-left: -26% !important;
+  margin-left: 5%;
 }
 
 .slider-cursos-1 .slick-prev ::before {
