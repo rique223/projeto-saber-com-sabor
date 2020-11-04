@@ -1256,7 +1256,7 @@ body {
 	}
 
 	.cta button {
-		height: 30%;
+		height: 37%;
 		top: -4%;
 		position: relative;
 	}
@@ -1972,5 +1972,63 @@ body {
 @media (height: 1366px) {
 	.slider-categorias {
 		height: 34%;
+	}
+}
+
+@media(min-width: 1280px) and (max-width: 1440px) {
+	.slick-dots {
+    bottom: -5%;
+	}
+
+	.slider-banner {
+		height: 87%;
+	}
+
+	.slider-categorias {
+		height: 39%;
+	}
+
+	.mascara {
+		height: 77%;
+	}
+
+	.slider-professores-item {
+		left: 13%;
+	}
+
+	.rodape-item-telefone, .rodape-item-email {
+    margin: 75px 5px;
+	}
+
+	.briefing {
+		padding: 5% 10%;
+	}
+}
+
+@media(height: 800px) {
+	.mascara { 
+		height: 68%;
+	}
+
+	.slider-professores-item {
+		left: 7%;
+	}
+}
+
+@media(height: 950px) {
+	.slider-banner {
+		height: 74%;
+	}
+
+	.slider-categorias {
+		height: 33%;
+	}
+
+	.mascara {
+		height: 68%;
+	}
+
+	.slider-professores-item {
+		left: 7%;
 	}
 }
